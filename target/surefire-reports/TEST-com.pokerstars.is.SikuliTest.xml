@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="com.pokerstars.is.SikuliTest" time="2.714" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="IBM Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="11.0.17+8"/>
+    <property name="user.name" value="DonalIai"/>
+    <property name="java.compiler" value="j9jit29"/>
+    <property name="os.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="user.language" value="en"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="/Users/DonalIai/Library/Java/JavaVirtualMachines/semeru-11.0.17/Contents/Home/lib/default:/Users/DonalIai/Library/Java/JavaVirtualMachines/semeru-11.0.17/Contents/Home/lib"/>
+    <property name="idea.version" value="2022.1.4"/>
+    <property name="sun.boot.library.path" value="/Users/DonalIai/Library/Java/JavaVirtualMachines/semeru-11.0.17/Contents/Home/lib/default:/Users/DonalIai/Library/Java/JavaVirtualMachines/semeru-11.0.17/Contents/Home/lib"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="jdk.extensions.version" value="11.0.17.0"/>
+    <property name="java.version" value="11.0.17"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="com.ibm.system.agent.path" value="/Users/DonalIai/Library/Java/JavaVirtualMachines/semeru-11.0.17/Contents/Home/lib"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="com.ibm.oti.vm.library.version" value="29"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/conf"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="user.country" value="GB"/>
+    <property name="java.home" value="/Users/DonalIai/Library/Java/JavaVirtualMachines/semeru-11.0.17/Contents/Home"/>
+    <property name="java.vm.info" value="JRE 11 Mac OS X amd64-64-Bit Compressed References 20221031_510 (JIT enabled, AOT enabled)
+OpenJ9   - e04a7f6c1
+OMR      - 85a21674f
+JCL      - a94c231303 based on jdk-11.0.17+8"/>
+    <property name="os.version" value="12.6.2"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="openj9-0.35.0"/>
+    <property name="user.variant" value=""/>
+    <property name="maven.ext.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="jdk.extensions.name" value="Extensions for OpenJDK for Eclipse OpenJ9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="user.home" value="/Users/DonalIai"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="java.library.path" value="/Users/DonalIai/Library/Java/JavaVirtualMachines/semeru-11.0.17/Contents/Home/lib/default:/Users/DonalIai/Library/Java/JavaVirtualMachines/semeru-11.0.17/Contents/Home/lib:/usr/lib"/>
+    <property name="java.vendor.url" value="https://www.ibm.com/semeru-runtimes"/>
+    <property name="java.vm.vendor" value="Eclipse OpenJ9"/>
+    <property name="java.fullversion" value="11.0.17+8
+JRE 11 Mac OS X amd64-64-Bit Compressed References 20221031_510 (JIT enabled, AOT enabled)
+OpenJ9   - e04a7f6c1
+OMR      - 85a21674f
+JCL      - a94c231303 based on jdk-11.0.17+8"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="java.runtime.name" value="IBM Semeru Runtime Open Edition"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.1.4 install"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.io.tmpdir" value="/var/folders/r3/th4lrfkn3x33mx878c1hmx7h0000gp/T/"/>
+    <property name="java.vendor.url.bug" value="https://github.com/ibmruntimes/Semeru-Runtimes/issues"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/DonalIai/IdeaProjects/sikulix-poker"/>
+    <property name="ibm.system.encoding" value="UTF-8"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="user.dir" value="/Users/DonalIai/IdeaProjects/sikulix-poker"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Eclipse OpenJ9 VM"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="java.vendor.version" value="11.0.17.0"/>
+  </properties>
+  <testcase classname="com.pokerstars.is.SikuliTest" name="com.pokerstars.is.SikuliTest.testSomething" time="2.714">
+    <failure message="java.awt.image.DataBufferUShort incompatible with java.awt.image.DataBufferByte" type="java.lang.ClassCastException">java.lang.ClassCastException: java.awt.image.DataBufferUShort incompatible with java.awt.image.DataBufferByte
+	at org.sikuli.script.Finder$Finder2.getMatList(Finder.java:964)
+	at org.sikuli.script.Finder$Finder2.makeMat(Finder.java:1015)
+	at org.sikuli.script.Finder.possibleImageResizeOrCallback(Finder.java:159)
+	at org.sikuli.script.Finder.find(Finder.java:194)
+	at org.sikuli.script.Region.runFinder(Region.java:2863)
+	at org.sikuli.script.Region.doFind(Region.java:2817)
+	at org.sikuli.script.Region.access$200(Region.java:29)
+	at org.sikuli.script.Region$RepeatableFind.run(Region.java:3057)
+	at org.sikuli.script.Region$Repeatable.repeat(Region.java:3002)
+	at org.sikuli.script.Region.wait(Region.java:2200)
+	at org.sikuli.script.Region.wait(Region.java:2244)
+	at org.sikuli.script.Region.getLocationFromTarget(Region.java:3298)
+	at org.sikuli.script.Region.click(Region.java:3916)
+	at org.sikuli.script.Region.click(Region.java:3892)
+	at com.pokerstars.is.SikuliTest.testSomething(SikuliTest.java:21)
+</failure>
+  </testcase>
+</testsuite>

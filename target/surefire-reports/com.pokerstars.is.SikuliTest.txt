@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.pokerstars.is.SikuliTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.715 sec <<< FAILURE!
+com.pokerstars.is.SikuliTest.testSomething()  Time elapsed: 2.714 sec  <<< FAILURE!
+java.lang.ClassCastException: java.awt.image.DataBufferUShort incompatible with java.awt.image.DataBufferByte
+	at org.sikuli.script.Finder$Finder2.getMatList(Finder.java:964)
+	at org.sikuli.script.Finder$Finder2.makeMat(Finder.java:1015)
+	at org.sikuli.script.Finder.possibleImageResizeOrCallback(Finder.java:159)
+	at org.sikuli.script.Finder.find(Finder.java:194)
+	at org.sikuli.script.Region.runFinder(Region.java:2863)
+	at org.sikuli.script.Region.doFind(Region.java:2817)
+	at org.sikuli.script.Region.access$200(Region.java:29)
+	at org.sikuli.script.Region$RepeatableFind.run(Region.java:3057)
+	at org.sikuli.script.Region$Repeatable.repeat(Region.java:3002)
+	at org.sikuli.script.Region.wait(Region.java:2200)
+	at org.sikuli.script.Region.wait(Region.java:2244)
+	at org.sikuli.script.Region.getLocationFromTarget(Region.java:3298)
+	at org.sikuli.script.Region.click(Region.java:3916)
+	at org.sikuli.script.Region.click(Region.java:3892)
+	at com.pokerstars.is.SikuliTest.testSomething(SikuliTest.java:21)
+
